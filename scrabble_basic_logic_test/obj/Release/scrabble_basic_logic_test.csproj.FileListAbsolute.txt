@@ -1,0 +1,8 @@
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\bin\Release\scrabble_basic_logic_test.exe.config
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\bin\Release\scrabble_basic_logic_test.exe
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\bin\Release\scrabble_basic_logic_test.pdb
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Release\scrabble_basic_logic_test.Properties.res.resources
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Release\scrabble_basic_logic_test.csproj.GenerateResource.cache
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Release\scrabble_basic_logic_test.csproj.CoreCompileInputs.cache
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Release\scrabble_basic_logic_test.exe
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Release\scrabble_basic_logic_test.pdb

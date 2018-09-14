@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scrabble_basic_logic_test", "scrabble_basic_logic_test\scrabble_basic_logic_test.csproj", "{8B04CFBD-49C0-45FB-A1AD-096B3F5502D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{DB86C025-B09D-4749-9902-5C1B824BCDDC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Unity\_Projects\Scrabbler\Assets\r4.png = ..\..\Unity\_Projects\Scrabbler\Assets\r4.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B04CFBD-49C0-45FB-A1AD-096B3F5502D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B04CFBD-49C0-45FB-A1AD-096B3F5502D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B04CFBD-49C0-45FB-A1AD-096B3F5502D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B04CFBD-49C0-45FB-A1AD-096B3F5502D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F92A62B2-8313-4158-93E6-3D740F5C6294}
+	EndGlobalSection
+EndGlobal
