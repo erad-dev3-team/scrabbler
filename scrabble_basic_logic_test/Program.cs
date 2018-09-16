@@ -16,7 +16,7 @@ namespace scrabble_basic_logic_test
 			brd.drawBoard();
 			Console.Read(); 
 		}
-
+        // Itt járt az iflyú Padawan
 		
 
 	}
