@@ -235,13 +235,14 @@ namespace scrabble_basic_logic_test.hashes
 				return string.Format("{{ \"{0}\" : '{1}' }}", Key, Value);
 			}
 		}
-
+		/*
 		public struct hashContainer
 		{
 			List<Ihash> hashList = new List<Ihash>();
 
 
 		}
+		*/
 }
 
 	

@@ -6,3 +6,4 @@ F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Debug\scrabble_basic_logic_tes
 F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Debug\scrabble_basic_logic_test.pdb
 F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Debug\scrabble_basic_logic_test.Properties.res.resources
 F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Debug\scrabble_basic_logic_test.csproj.GenerateResource.cache
+F:\GitHub\Scrabbler\scrabble_basic_logic_test\obj\Debug\scrabble_basic_logic_test.csprojAssemblyReference.cache

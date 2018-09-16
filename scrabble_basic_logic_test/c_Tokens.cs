@@ -63,11 +63,12 @@ namespace scrabble_basic_logic_test
 			this.tokenLetters = Letters;
 			this.tokenValues = Values;
 			this.tokenAmount = Amount;
-
+			/*
 			foreach (object v in Values)
 			{
 
 			}
+			*/
 		}
 
 		public void FillBag(int num)
