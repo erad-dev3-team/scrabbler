@@ -1,4 +1,6 @@
-﻿namespace scrabble_basic_logic_test.hashes
+﻿using System.Collections.Generic;
+
+namespace scrabble_basic_logic_test.hashes
 {
 	public interface Ihash { };
 
@@ -81,7 +83,7 @@
 			return h;
 		}
 
-		struct ii_hash : Ihash
+		public struct ii_hash : Ihash
 		{
 			public ii_hash(int key, int value)
 			{
@@ -98,7 +100,7 @@
 			}
 		}
 
-		struct ss_hash : Ihash
+		public struct ss_hash : Ihash
 		{
 			public ss_hash(string key, string value)
 			{
@@ -115,7 +117,7 @@
 			}
 		}
 
-		struct cc_hash : Ihash
+		public struct cc_hash : Ihash
 		{
 			public cc_hash(char key, char value)
 			{
@@ -132,7 +134,7 @@
 			}
 		}
 
-		struct si_hash : Ihash
+		public struct si_hash : Ihash
 		{
 			public si_hash(string key, int value)
 			{
@@ -149,7 +151,7 @@
 			}
 		}
 
-		struct is_hash : Ihash
+		public struct is_hash : Ihash
 		{
 			public is_hash(int key, string value)
 			{
@@ -166,7 +168,7 @@
 			}
 		}
 
-		struct ci_hash : Ihash
+		public struct ci_hash : Ihash
 		{
 			public ci_hash(char key, int value)
 			{
@@ -183,7 +185,7 @@
 			}
 		}
 
-		struct ic_hash : Ihash
+		public struct ic_hash : Ihash
 		{
 			public ic_hash(int key, char value)
 			{
@@ -200,7 +202,7 @@
 			}
 		}
 
-		struct cs_hash : Ihash
+		public struct cs_hash : Ihash
 		{
 			public cs_hash(char key, string value)
 			{
@@ -217,7 +219,7 @@
 			}
 		}
 
-		struct sc_hash : Ihash
+		public struct sc_hash : Ihash
 		{
 			public sc_hash(string key, char value)
 			{
@@ -233,5 +235,14 @@
 				return string.Format("{{ \"{0}\" : '{1}' }}", Key, Value);
 			}
 		}
-	}
+
+		public struct hashContainer
+		{
+			List<Ihash> hashList = new List<Ihash>();
+
+
+		}
+}
+
+	
 }

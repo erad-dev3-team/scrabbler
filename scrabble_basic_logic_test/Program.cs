@@ -14,7 +14,7 @@ namespace scrabble_basic_logic_test
 			brd.initialize();
 			Console.SetCursorPosition(0, 2);
 			brd.drawBoard();
-			Console.Read();
+			Console.Read(); 
 		}
 
 		

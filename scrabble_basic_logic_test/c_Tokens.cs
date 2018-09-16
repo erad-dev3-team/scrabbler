@@ -22,6 +22,7 @@ namespace scrabble_basic_logic_test
 			if (Parent == null) { return; }
 			this._parent = Parent;
 		}
+		
 
 		/// <summary>
 		/// How many tokens are in the bag at the start of the game
@@ -32,31 +33,31 @@ namespace scrabble_basic_logic_test
 		/// <para>tokenLetters{Key : Value} => { TokenLetter : TokenInt }</para>
 		/// <EG>E.g.: ... {'Á':2}, {'B':3}, ... {'H':11}, ...</EG>
 		/// </summary>
-		public Hashtable tokenLetters { get; set; }
+		public Hashes.si_hash tokenLetters { get; set; }
 		/// <summary>
 		/// <para>How much each token is worth</para>
 		/// <para>tokenValues{Key : Value} => { TokenInt : TokenValue }</para>
 		/// <EG>E.g.: {1:1}, {2:4}, ... {11:2}, ...</EG>
 		/// </summary>
-		public Hashtable tokenValues { get; set; }
+		public Hashes.ii_hash tokenValues { get; set; }
 		/// <summary>
 		/// <para>How many there is of each token</para>
 		/// <para>tokenAmount{Key : Value} => { TokenInt : NumOfTokens }</para>
 		/// <EG>E.g.: {1:6}, {2:2}, ... {6:6}, ...</EG>
 		/// </summary>
-		public Hashtable tokenAmount { get; set; }
+		public Hashes.ii_hash tokenAmount { get; set; }
 
 		private StringBuilder allTokenLetters = new StringBuilder();
 
 		IEnumerable<c_Token> tokenContainer = new List<c_Token>();
 
-		public void InitializeAndFill(int maxTokens, Hashtable Letters, Hashtable Values, Hashtable Amount)
+		public void InitializeAndFill(int maxTokens, Hashes.si_hash Letters, Hashes.ii_hash Values, Hashes.ii_hash Amount)
 		{
 			InitializeBag(maxTokens, Letters, Values, Amount);
 			FillBag();
 		}
 
-		public void InitializeBag(int maxTokens, Hashtable Letters, Hashtable Values, Hashtable Amount)
+		public void InitializeBag(int maxTokens, Hashes.si_hash Letters, Hashes.ii_hash Values, Hashes.ii_hash Amount)
 		{
 			this.maxTokensInBag = maxTokens;
 			this.tokenLetters = Letters;
